@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+}
+
+header h1,
+.table h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 40px 0;
+    color: rgb(4, 4, 92);
+}
+
+.form input,
+.form button {
+    display: flex;
+}
+
+.form label {
+    font-size: 20px;
+    color: rgb(4, 4, 92);
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(4, 4, 92);
+    margin-bottom: 30px;
+    margin-top: 8px;
+    outline-color: rgb(4, 4, 92);
+}
+
+.form .opcoes {
+    display: flex;
+    width: 20%;
+}
+
+.form .opcoes label {
+    margin-left: 8px;
+}
+
+.form .opcoes #residencial {
+    margin-left: 20px;
+}
+
+.form button {
+    background-color: rgb(4, 4, 92);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.form button:hover {
+    background-color: rgb(15, 15, 167);
+}
+
+.table {
+    width: 100%;
+}
+
+.table table {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 40px -6px rgba(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+}
+
+.table thead th {
+    background-color: rgb(4, 4, 92);
+    color: #fff;
+    padding: 12px;
+}
+
+.table tbody td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #000;
+    transition: .1s;
+}
+
+.table tbody tr:hover {
+    background-color: #e7e7e7;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container {
+        width: 390px;
+        padding: 20px;
+        margin: 0px auto;
+    }
+
+    header h1,
+    .table h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 40px 0;
+        color: rgb(4, 4, 92);
+    }
+
+    .form button {
+        display: block;
+        width: 100%;
+    }
+
+    .form .opcoes {
+        display: flex;
+        width: 100%;
+    }
+
+}
